@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;;
+}
+
+.banner{
+    background-image: url(images/banner.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40vh;
+    color: white;
+    text-align: center;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+.banner-content{
+    padding-top: 100px;
+}
+
+.banner_button{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+}
+
+.banner_button:hover{
+    background-color: red;
+    cursor: pointer;
+    color: black;
+    border-radius: 6px;
+    border: none;
+
+}
+
+.donation{
+    text-align: center;
+    padding: 50px;
+    margin-bottom: 30px;
+}
+
+.donate-amount{
+display: flex;
+justify-content: center;
+margin-top: 20px;
+}
+
+.amount{
+    background-color: aliceblue;
+    padding: 15px;
+    margin-right: 10px;
+    color: red;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.active{
+    background-color: rgb(184, 18, 218);
+    color: white;
+}
+#input-amount{
+    margin-top: 15px;
+    width: 30%;
+    border: none;
+    border-bottom: 1px solid purple;
+    padding: 15px;
+   
+
+}
+
+.amount-cus{
+    color: white;
+    background-color: #8b4cf7;
+    border: 2px solid #8b4cf7;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.donation-plan{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.flex-container{
+    display: flex;
+    margin-right: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.plan{
+    border: 2px #8b4cf7 solid;
+    margin-right: 20px;
+    padding: 15px;
+    background-color: azure;
+    height: 340px;
+}
+
+.gallary{
+    text-align: center;
+    margin-top: 5%;
+    
+
+}
+.image-gallary{
+    
+}
+.gallary-row{
+    display: flex;
+    margin: opx auto;
+    justify-content: center;
+    
+}
+
+footer{
+    padding: 30px;
+    background-color: black;
+    color: white;
+
+
+}
+
+.gallary-row img{
+    width: 22%;
+    padding: 5px;
+    margin: 5px;
+}
